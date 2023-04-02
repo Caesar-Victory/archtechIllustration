@@ -1,9 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T11:49:27.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" version="21.1.2" etag="bmNeQ9LaJ7oVHZM9O0zp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-02T12:57:01.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="15kx4-AZlAr1gceHmo1t" version="21.1.2" type="github">
   <diagram name="Page-1" id="_-uUZ8u1eQWafLIXQiWx">
-    <mxGraphModel>
+    <mxGraphModel dx="1514" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VD4Sl_MFupA9UsgHSz85-1" target="VD4Sl_MFupA9UsgHSz85-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="690" />
+              <mxPoint x="800" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-1" value="前端展示数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-2" value="后端读取和释放数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VD4Sl_MFupA9UsgHSz85-3" target="VD4Sl_MFupA9UsgHSz85-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-3" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VD4Sl_MFupA9UsgHSz85-4" target="VD4Sl_MFupA9UsgHSz85-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VD4Sl_MFupA9UsgHSz85-4" target="VD4Sl_MFupA9UsgHSz85-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VD4Sl_MFupA9UsgHSz85-4" target="VD4Sl_MFupA9UsgHSz85-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-4" value="view视图调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VD4Sl_MFupA9UsgHSz85-5" target="VD4Sl_MFupA9UsgHSz85-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-5" value="序列化[筛选]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-7" value="URL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-8" value="仅筛选删除/display" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-10" value="根据Course index筛选" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-12" value="URL传参" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VD4Sl_MFupA9UsgHSz85-13" target="VD4Sl_MFupA9UsgHSz85-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-13" value="重写queryset数据集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="510" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-16" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="50" width="110" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-22" value="异步加载数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VD4Sl_MFupA9UsgHSz85-16">
+          <mxGeometry x="5" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-24" value="通过JS函数修改课程分类的数据源，&lt;br&gt;这种修改是基于watch()函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VD4Sl_MFupA9UsgHSz85-16">
+          <mxGeometry x="-50" y="340" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VD4Sl_MFupA9UsgHSz85-23" value="根据点击回传的course direction ID&lt;br&gt;筛选归属该ID的所有Course信息&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="140" width="210" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
