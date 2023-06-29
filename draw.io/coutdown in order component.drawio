@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T09:16:12.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" version="21.5.2" etag="WpMDg3TqSuZnUFsKdw63" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T09:34:15.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="UsA2exvQkJ3tqNic5r-A" version="21.5.2" type="github">
   <diagram name="Page-1" id="sBvxijRGM7dRU4R3HUU6">
-    <mxGraphModel>
+    <mxGraphModel dx="1514" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3na19yOC7a2B-mAeFBup-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3na19yOC7a2B-mAeFBup-3" target="3na19yOC7a2B-mAeFBup-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-5" value="flag" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-6" value="click event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.008;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3na19yOC7a2B-mAeFBup-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="30" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-8" value="user click [create order]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="30" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-11" value="Put up Order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="250" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-12" value="response for click event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="290" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-15" value="1. obtain orderNumber configuration from parent function" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="500" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-16" value="2. eliminate all timer&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="370" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-17" value="3. use timeout cf to count down" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-18" value="4. after timeout, notification shutdown, call child function and jump page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="430" width="650" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;child function&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-21" value="1. modify flag for making timer close&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="480" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3na19yOC7a2B-mAeFBup-22" value="2. jump page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="510" width="350" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
